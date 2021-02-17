@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+main,header,nav,aside,footer{
+    border: 1px solid grey;
+    padding: 10px;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+body{
+    background-image: url('kepek/hatter.jpg');
+    color: white;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+    flex:0 0 100%;
+    order: 0;
+        
+}
+footer{
+flex: 0 0 100%; 
+order: 4;
+}
+#elso{
+flex: 0 0 25%;
+order: 1;
+}
+#masodik{
+flex: 0 0 25%;
+order: 3;
+}
+
+*{
+    box-sizing:border-box;
+}
+nav ul{
+    display:flex;
+        
+}
+nav{
+    
+    display:flex;
+    justify-content:space-between;
+    background-color: aliceblue;
+    padding: 5px;
+    
+}
+nav li{
+    list-style-type: none;
+}
+nav li:hover{
+    background-color: pink; 
+}
+nav a{
+    text-decoration:none;
+}
+article{
+    flex: 0 0 50%;
+    order: 2;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article div{
+    flex: 0 0 33.333%;
+}
+article div img{
+    width: 100%;
+}
