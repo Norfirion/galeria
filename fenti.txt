@@ -1,6 +1,10 @@
 
 fent íreok bee
+1lenti 
+2lenti 
+3lenti
 
-1.sad
-1good
-.wreched
+ 
+1.sad fenti
+1good fenti
+.wreched fenit
